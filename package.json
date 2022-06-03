@@ -1,6 +1,6 @@
 {
   "name": "@kwj-team/strapi-plugin-quizzes",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "This plugin adds quiz capabilities to Strapi CMS",
   "strapi": {
     "name": "quizzes",

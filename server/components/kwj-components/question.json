@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_kwj_components_questions",
+  "info": {
+    "displayName": "Question",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Write your question here"
+    },
+    "description": {
+      "type": "text",
+      "default": "Write a description of the question (optional)"
+    },
+    "points": {
+      "type": "integer",
+      "required": true,
+      "default": 1
+    },
+    "isAnswerRequired": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

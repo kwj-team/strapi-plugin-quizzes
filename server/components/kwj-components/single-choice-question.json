@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_kwj_components_single_choice_questions",
+  "info": {
+    "displayName": "Single Choice Question",
+    "icon": "check-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kwj-components.question"
+    },
+    "answers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "kwj-components.answer"
+    }
+  }
+}

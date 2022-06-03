@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quizzes",
+  "info": {
+    "singularName": "quiz",
+    "pluralName": "quizzes",
+    "displayName": "Quiz",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Write the title of the quiz"
+    },
+    "description": {
+      "type": "text",
+      "default": "Write a description of the quiz"
+    },
+    "showCorrectAnswers": {
+      "type": "boolean"
+    },
+    "showPoints": {
+      "type": "boolean"
+    },
+    "randomize": {
+      "type": "boolean",
+      "default": false
+    },
+    "numberOfAttempts": {
+      "type": "integer"
+    },
+    "questions": {
+      "type": "dynamiczone",
+      "components": [
+        "kwj-components.multi-choice-question",
+        "kwj-components.single-choice-question"
+      ],
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@kwj-team/plugin-quiz-components",
+  "version": "0.0.0",
+  "description": "This plugin adds simple quiz capabilities to strapi CMS",
+  "strapi": {
+    "name": "kwj-quiz-components",
+    "description": "Adds basic setup for creating a quiz paired with a React components library ready for use",
+    "kind": "plugin",
+    "displayName": "Kwj Quiz Components"
+  },
+  "dependencies": {},
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

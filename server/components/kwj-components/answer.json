@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_kwj_components_answers",
+  "info": {
+    "displayName": "Answer",
+    "icon": "pen",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "default": "Write answer key here",
+      "required": true,
+      "unique": false
+    },
+    "text": {
+      "type": "text",
+      "required": true,
+      "default": "Write answer here"
+    },
+    "isCorrect": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

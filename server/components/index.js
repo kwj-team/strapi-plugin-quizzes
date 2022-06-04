@@ -1,20 +1,27 @@
 
 const { nameToSlug } = require("@strapi/utils")
 
-const answer = require('./kwj-components/answer.json')
-const question = require('./kwj-components/question.json')
-const singleChoice = require('./kwj-components/single-choice-question.json')
-const multiChoice = require('./kwj-components/multi-choice-question.json')
+const answer = require('./kwj-quiz-components/answer.json')
+const question = require('./kwj-quiz-components/question.json')
+const singleChoice = require('./kwj-quiz-components/single-choice-question.json')
+const multiChoice = require('./kwj-quiz-components/multi-choice-question.json')
 
-const category = 'kwj-components'
+// TODO: Read from directory name instead of hardcoding
+const category = 'kwj-quiz-components'
 
 module.exports = {
-    getComponents: () => {
-        return [{
-            component: mapMainComponent(singleChoice), components: mapChildComponents([answer, question]),
-        }, {
-            component: mapMainComponent(multiChoice), components: mapChildComponents([answer, question]),
-        }]
+    getComponents: async () => {
+        return [
+            // TODO: Read from directory instead of hardcoding
+            mapComponent(singleChoice, [answer, question]),
+            mapComponent(multiChoice, [answer, question])
+        ]
+    }
+}
+
+function mapComponent(component, components) {
+    return {
+        component: mapMainComponent(component), components: mapChildComponents(components),
     }
 }
 

@@ -15,8 +15,8 @@ module.exports = async ({ strapi }) => {
  */
 async function loadComponents(strapi) {
   let newlyCreated = 0;
-
-  const promises = getComponents().map(async ({ component, components }) => {
+  const components = await getComponents()
+  const promises = components.map(async ({ component, components }) => {
     try {
       await strapi.plugin('content-type-builder').services.components.createComponent({
         component,

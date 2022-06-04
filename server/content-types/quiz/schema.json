@@ -36,8 +36,8 @@
     "questions": {
       "type": "dynamiczone",
       "components": [
-        "kwj-components.multi-choice-question",
-        "kwj-components.single-choice-question"
+        "kwj-quiz-components.multi-choice-question",
+        "kwj-quiz-components.single-choice-question"
       ],
       "required": true
     }

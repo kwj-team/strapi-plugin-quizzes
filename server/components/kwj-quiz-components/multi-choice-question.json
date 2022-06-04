@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_kwj_components_multi_choice_questions",
+  "collectionName": "components_kwj_quiz_components_multi_choice_questions",
   "info": {
     "displayName": "Multi Choice Question",
     "icon": "check-square"
@@ -9,12 +9,12 @@
     "question": {
       "type": "component",
       "repeatable": false,
-      "component": "kwj-components.question"
+      "component": "kwj-quiz-components.question"
     },
     "answers": {
       "type": "component",
       "repeatable": true,
-      "component": "kwj-components.answer"
+      "component": "kwj-quiz-components.answer"
     }
   }
 }

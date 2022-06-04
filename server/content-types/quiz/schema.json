@@ -40,6 +40,11 @@
         "kwj-quiz-components.single-choice-question"
       ],
       "required": true
+    },
+    "media": {
+      "allowedTypes": ["images", "files", "videos", "audios"],
+      "type": "media",
+      "multiple": false
     }
   }
 }

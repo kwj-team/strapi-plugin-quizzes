@@ -1,8 +1,9 @@
 {
-  "collectionName": "components_kwj_quiz_components_multi_choice_questions",
+  "collectionName": "components_kwj_quiz_components_single_choices",
   "info": {
-    "displayName": "Multi Choice Question",
-    "icon": "check-square"
+    "displayName": "Single Choice",
+    "icon": "check-circle",
+    "description": ""
   },
   "options": {},
   "attributes": {

@@ -3,8 +3,8 @@ const { nameToSlug } = require("@strapi/utils")
 
 const answer = require('./kwj-quiz-components/answer.json')
 const question = require('./kwj-quiz-components/question.json')
-const singleChoice = require('./kwj-quiz-components/single-choice-question.json')
-const multiChoice = require('./kwj-quiz-components/multi-choice-question.json')
+const singleChoice = require('./kwj-quiz-components/single-choice.json')
+const multiChoice = require('./kwj-quiz-components/multi-choice.json')
 
 // TODO: Read from directory name instead of hardcoding
 const category = 'kwj-quiz-components'

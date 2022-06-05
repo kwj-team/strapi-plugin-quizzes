@@ -1,1 +1,6 @@
-{}
+{
+  "plugin.name": "Quizzes",
+  "plugin.description": "A plugin for creating quizzes.",
+  "plugin.homepage.title": "Quizzes Plugin",
+  "plugin.homepage.subtitle": "made with ❤️ by KWJ Team"
+}

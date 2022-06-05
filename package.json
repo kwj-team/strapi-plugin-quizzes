@@ -8,7 +8,9 @@
     "kind": "plugin",
     "displayName": "Quizzes"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@kwj-team/react-quiz-components": "0.1.7"
+  },
   "author": {
     "name": "KWJ-team"
   },

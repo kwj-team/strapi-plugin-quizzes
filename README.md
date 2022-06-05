@@ -33,8 +33,7 @@ That's it 🎉, plugin will create content-type and components for you. Have fun
 We have prepared React Components ✨ that use MUI library and match the data that the plugin will provide.
 You can customize the components as you would `@material/mui` library. Samples are available in the admin page of the plugin as well as on the storybook.
 
-Components are available under 
-*https://www.npmjs.com/package/@kwj-team/react-quiz-components*
+Components are available in [npm](https://www.npmjs.com/package/@kwj-team/react-quiz-components) and in [github](https://github.com/kwj-team/react-quiz-components)
 
 You can add them to your react project using
 

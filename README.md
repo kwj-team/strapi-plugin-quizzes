@@ -65,6 +65,3 @@ Feel free to create issue in github, it's just starting up so there will be quit
 
 Feel free to contact us on wojtek@kwjteam.com and klaudia@kwjteam.com also you can check out our page at [kwjteam.com](http://www.kwjteam.com)
 
-```
-
-```
